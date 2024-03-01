@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "plant1.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "plant5.jpg",
+      "filename" : "plant2.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "plant6.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
