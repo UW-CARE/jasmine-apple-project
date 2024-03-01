@@ -10,10 +10,19 @@ import SwiftUI
 @main
 struct PlantCareApp: App {
     let persistenceController = PersistenceController.shared
+    @State private var showContentView = false
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            if showContentView {
+//                ContentView()
+//                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+//            } else {
+//                WelcomeScreenView {
+//                    showContentView = true;
+//                }
+//            }
+            WelcomeScreenView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

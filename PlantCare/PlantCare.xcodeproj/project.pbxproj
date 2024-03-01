@@ -16,6 +16,15 @@
 		24C0A62D2B88B9CF00A603FF /* PlantCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0A62C2B88B9CF00A603FF /* PlantCareTests.swift */; };
 		24C0A6372B88B9CF00A603FF /* PlantCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0A6362B88B9CF00A603FF /* PlantCareUITests.swift */; };
 		24C0A6392B88B9CF00A603FF /* PlantCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0A6382B88B9CF00A603FF /* PlantCareUITestsLaunchTests.swift */; };
+		24C0A6482B919D2000A603FF /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0A6472B919D2000A603FF /* WelcomeScreenView.swift */; };
+		24C0A64A2B919E0200A603FF /* PlantGallaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0A6492B919E0200A603FF /* PlantGallaryView.swift */; };
+		24C0A64C2B919E5A00A603FF /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0A64B2B919E5A00A603FF /* HomeScreenView.swift */; };
+		24C0A6502B91A1C900A603FF /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0A64F2B91A1C900A603FF /* HeaderView.swift */; };
+		24C0A6522B91AE0A00A603FF /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0A6512B91AE0A00A603FF /* CategoriesView.swift */; };
+		24C0A6542B91B23B00A603FF /* SectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0A6532B91B23B00A603FF /* SectionTitleView.swift */; };
+		24C0A6572B91C1DD00A603FF /* RecommendedPlantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0A6562B91C1DD00A603FF /* RecommendedPlantsView.swift */; };
+		24C0A65A2B91C49100A603FF /* GardenScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0A6592B91C49100A603FF /* GardenScreenView.swift */; };
+		24C0A65C2B91C49F00A603FF /* ProfileScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0A65B2B91C49F00A603FF /* ProfileScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,15 @@
 		24C0A6322B88B9CF00A603FF /* PlantCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C0A6362B88B9CF00A603FF /* PlantCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCareUITests.swift; sourceTree = "<group>"; };
 		24C0A6382B88B9CF00A603FF /* PlantCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24C0A6472B919D2000A603FF /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		24C0A6492B919E0200A603FF /* PlantGallaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantGallaryView.swift; sourceTree = "<group>"; };
+		24C0A64B2B919E5A00A603FF /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		24C0A64F2B91A1C900A603FF /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		24C0A6512B91AE0A00A603FF /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		24C0A6532B91B23B00A603FF /* SectionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleView.swift; sourceTree = "<group>"; };
+		24C0A6562B91C1DD00A603FF /* RecommendedPlantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedPlantsView.swift; sourceTree = "<group>"; };
+		24C0A6592B91C49100A603FF /* GardenScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenScreenView.swift; sourceTree = "<group>"; };
+		24C0A65B2B91C49F00A603FF /* ProfileScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +116,8 @@
 		24C0A6152B88B9CD00A603FF /* PlantCare */ = {
 			isa = PBXGroup;
 			children = (
+				24C0A64E2B91A1B200A603FF /* Components */,
+				24C0A6462B91630100A603FF /* Screens */,
 				24C0A6162B88B9CD00A603FF /* PlantCareApp.swift */,
 				24C0A6182B88B9CD00A603FF /* ContentView.swift */,
 				24C0A61A2B88B9CF00A603FF /* Assets.xcassets */,
@@ -131,6 +151,29 @@
 				24C0A6382B88B9CF00A603FF /* PlantCareUITestsLaunchTests.swift */,
 			);
 			path = PlantCareUITests;
+			sourceTree = "<group>";
+		};
+		24C0A6462B91630100A603FF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				24C0A6472B919D2000A603FF /* WelcomeScreenView.swift */,
+				24C0A6492B919E0200A603FF /* PlantGallaryView.swift */,
+				24C0A64B2B919E5A00A603FF /* HomeScreenView.swift */,
+				24C0A6592B91C49100A603FF /* GardenScreenView.swift */,
+				24C0A65B2B91C49F00A603FF /* ProfileScreenView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		24C0A64E2B91A1B200A603FF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				24C0A64F2B91A1C900A603FF /* HeaderView.swift */,
+				24C0A6512B91AE0A00A603FF /* CategoriesView.swift */,
+				24C0A6532B91B23B00A603FF /* SectionTitleView.swift */,
+				24C0A6562B91C1DD00A603FF /* RecommendedPlantsView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +307,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C0A6232B88B9CF00A603FF /* PlantCare.xcdatamodeld in Sources */,
+				24C0A65A2B91C49100A603FF /* GardenScreenView.swift in Sources */,
+				24C0A6482B919D2000A603FF /* WelcomeScreenView.swift in Sources */,
 				24C0A6202B88B9CF00A603FF /* Persistence.swift in Sources */,
+				24C0A65C2B91C49F00A603FF /* ProfileScreenView.swift in Sources */,
+				24C0A6542B91B23B00A603FF /* SectionTitleView.swift in Sources */,
 				24C0A6192B88B9CD00A603FF /* ContentView.swift in Sources */,
 				24C0A6172B88B9CD00A603FF /* PlantCareApp.swift in Sources */,
+				24C0A6522B91AE0A00A603FF /* CategoriesView.swift in Sources */,
+				24C0A64C2B919E5A00A603FF /* HomeScreenView.swift in Sources */,
+				24C0A64A2B919E0200A603FF /* PlantGallaryView.swift in Sources */,
+				24C0A6572B91C1DD00A603FF /* RecommendedPlantsView.swift in Sources */,
+				24C0A6502B91A1C900A603FF /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
