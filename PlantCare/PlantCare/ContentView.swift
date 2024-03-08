@@ -14,16 +14,20 @@ struct ContentView: View {
                 .tabItem {
                     Label("Home", systemImage: "house.fill")
                 }
-
+                .accessibilityLabel("Home Tab")
+            
+            
             GardenScreenView()
                 .tabItem {
                     Label("Garden", systemImage: "leaf.fill")
                 }
-
+                .accessibilityLabel("Garden Tab")
+            
             ProfileScreenView()
                 .tabItem {
                     Label("Profile", systemImage: "person.fill")
                 }
+                .accessibilityLabel("Profile Tab")
         }
     }
 
