@@ -23,5 +23,6 @@ struct HeaderView: View {
                 .resizable()
                 .frame(width: 70, height: 70)
         }
+        .accessibilityElement(children: .combine)
     }
 }
